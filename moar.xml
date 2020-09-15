@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- device specific things -->
+<project name="cesium-devices/device_asus_X00P" path="device/asus/X00P" remote="github" revision="eleven" />
+<project name="corvusrom-devices/vendor_asus_X00P" path="vendor/asus/X00P" remote="github" revision="eleven"/>
+<project name="corvusrom-devices/kernel_asus_X00P" path="kernel/asus/X00P" remote="github" revision="10"/>
+
+<!-- msm8996 HALS for android 11 -->
+<project name="rahifm/hardware_qcom_display" path="hardware/qcom/display-caf-msm8996" remote="github" revision="android-11-8996" />
+<project name="rahifm/hardware_qcom_audio" path="hardware/qcom/audio-caf-msm8996" remote="github" revision="android-11-8996" />
+<project name="rahifm/hardware_qcom_media" path="hardware/qcom/media-caf-msm8996" remote="github" revision="android-11-8996" />
+
+<!-- some extra stuffs -->
+<remove-project name="platform/hardware/libhardware" />
+<project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-11.0.0" />
+<project name="AOSP-whatever/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="android-11.0.0" />
+
+</manifest>
