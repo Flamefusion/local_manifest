@@ -14,6 +14,5 @@
 <!-- some extra stuffs -->
 <remove-project name="platform/hardware/libhardware" />
 <project name="AOSP-whatever/platform_hardware_libhardware" path="hardware/libhardware" remote="github" revision="android-11.0.0" />
-<project name="AOSP-whatever/platform_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="android-11.0.0" />
 
 </manifest>
